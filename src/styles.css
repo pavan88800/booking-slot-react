@@ -1,0 +1,12 @@
+.App {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 20px;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
